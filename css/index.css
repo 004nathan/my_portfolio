@@ -1,0 +1,34 @@
+.main_ctr{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.main_ctr *,.main_ctr{
+    box-sizing: border-box  ;
+}
+.com_hgt{
+    height: 600px;
+}
+.hdr{
+    position: sticky;
+    top:0;
+    width: 100%;
+   height: 100px;
+}
+.hdr_inner{
+    height:100%
+}
+.nav_li{
+    color: var(--black);
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+}
+.active{
+    color: var(--nav_active);
+}
+.logo{
+    font-weight: 600;
+   font-size:  calc(var(--base_font) + 5px);
+}
